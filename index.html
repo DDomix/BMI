@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI</title>
+    <link rel="stlysheet" href="main.css">
+    
 </head>
 <body>
-    WORKING....
+    <p>Írja be a cm-ben számított testmagasságát(cipő nélkül mérve):</p> <input type="number" id="cm"> cm
+    <p>Írja be kg-ban számított testsúlyát(cipő nélkül mérve):</p> <input type="number" id="kg"> kg 
+    <p><button id="szamitas" onclick="klikk()">Számítás</button></p>
+    <p>Az ön BMI értéke:<span id="bmi"></span></p>
 </body>
+<script href="main.js"></script>
 </html>
