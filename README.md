@@ -1,4 +1,4 @@
-# [Név]
+# [Papp Dominik]
 
 ## Hogyan kezdj neki?
 
