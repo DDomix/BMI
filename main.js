@@ -1,9 +1,11 @@
-function klikk(){
-    let cm=parseFloat(document.getElementById('cm').value);
-    let kg=parseFloat(document.getElementById('kg').value);
-    let bmi=kg / (cm / 100) ** 2;
-    document.getElementById('bmi').textContent=bmi;
+function szamitas(){
+    let magassag = parseFloat(document.getElementById("cm").value);
+    let suly = parseFloat(document.getElementById("kg").value);
+   
+    let ered = suly / (magassag / 100) ** 2;
+   
+    document.getElementById("eredmeny").textContent = ered;
 }
-document.getElementById('bmi').addEventListener('change',klikk);
-document.getElementById('kg').addEventListener('change',klikk);
-document.getElementById('szamitas').addEventListener('click',klikk);
+document.getElementById('bmi').addEventListener('change',szamitas);
+document.getElementById('kg').addEventListener('change',szamitas);
+document.getElementById('szamitas').addEventListener('click',szamitas);

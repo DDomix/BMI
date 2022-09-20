@@ -11,8 +11,59 @@
 <body>
     <p>Írja be a cm-ben számított testmagasságát(cipő nélkül mérve):</p> <input type="number" id="cm"> cm
     <p>Írja be kg-ban számított testsúlyát(cipő nélkül mérve):</p> <input type="number" id="kg"> kg 
-    <p><button id="szamitas">Számítás</button></p>
-    <p>Az ön BMI értéke:<span id="bmi"></span></p>
+    <p><button onclick="szamitas()">Számítás</button></p>
+    <p>Az ön BMI értéke:<span id="eredmeny">0</span></p>
+   <table class="table">
+        <tr>
+            <td>
+                18,5 vagy kevesebb                
+            </td>
+            <td>
+                Sovány
+            </td>
+        </tr>
+        <tr>
+            <td>
+                18,5 - 24,9               
+            </td>
+            <td>
+                Normál
+            </td>
+        </tr>
+        <tr>
+            <td>
+                25 - 29,9                
+            </td>
+            <td>
+                Túlsúly
+            </td>
+        </tr>
+        <tr>
+            <td>
+                30 - 34,9                
+            </td>
+            <td>
+                I.fokú elhízás
+            </td>
+        </tr>
+        <tr>
+            <td>
+                35-39,9                
+            </td>
+            <td>
+                II.fokú elhízás
+            </td>
+        </tr>
+        <tr>
+            <td>
+                40 vagy több               
+            </td>
+            <td>
+                III.fokú elhízás
+            </td>
+        </tr>
+   </table>
+   <p>Az ideális testtömege:</p>
 </body>
 <script href="main.js"></script>
 </html>
